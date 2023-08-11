@@ -1,0 +1,27 @@
+
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name": "mochila",
+    "price": 1
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+GET http://localhost:4002/products/08bf7cb9-cdd5-4f89-8d93-2d7ed7a91eef
+
+###
+PUT http://localhost:4002/products/d8463f03-f5ee-495f-884c-65604ae1ebf6
+Content-Type: application/json
+
+{
+    "name": "cuaderno",
+    "price": 8
+}
+
+###
+DELETE http://localhost:4002/products/ebacb10e-5020-44f0-979a-fd0998ec549e
